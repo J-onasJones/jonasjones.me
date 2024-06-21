@@ -11,6 +11,7 @@
     { name: "Home", url: "/" },
     { name: "Projects", url: "/projects" },
     { name: "Wiki", url: "https://wiki.jonasjones.dev" },
+    { name: "Blog", url: "https://blog.jonasjones.dev" },
     // just removed this cause it bothered me
     //{ name: 'For The Based™', url: '/based'},
     //{ name: 'Status', url: '/status'},
