@@ -3,6 +3,8 @@
     import NavBar from "../../components/NavBar.svelte";
     import ParallaxBg from "../../components/ParallaxBg.svelte";
     import Padding from "../../components/padding.svelte";
+
+    let audioSrc = "https://cdn.jonasjones.dev/mp3/Jonas_Jones-bigger-banger.mp3";
 </script>
 
 <ParallaxBg>
@@ -60,6 +62,10 @@
             Also, I like K-Pop.<br />
             I uSe ArCh BtW.
         </p>
+        <audio controls>
+            <source src={audioSrc} type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
         <h1>Useful Links</h1>
         <a href="https://builds.jonasjones.dev">Old Builds</a><br />
         <a href="https://wiki.jonasjones.dev">Wiki</a><br />
